@@ -52,5 +52,6 @@ const chargeFile = fi=>{
         let img = document.createElement("VIDEO");
         img.setAttribute("src", url)
         document.querySelector(".result").appendChild(img);
+        img.play();
     });
 }
